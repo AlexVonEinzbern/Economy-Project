@@ -13,7 +13,7 @@ double x, nl, Pn, an, G;
 
 using namespace std;
 
-//Función noahorro.
+//Funciï¿½n noahorro.
 
 double noahorro(double m0){
 	mi=m0/2.; //Cantidad de dinero del agente i suponiendo que ambos agentes inician con la misma cantidad de dinero. 
@@ -34,7 +34,7 @@ double noahorro(double m0){
 		mil0=e*(mil0+mjl0); 
 		mjl0=(1.-e)*(mil0+mjl0);
 		
-		wm=(1./(m0/2.))*exp(-(1./(m0/2.))*mil0); //Distribución de Gibbs cuando no se tiene en cuenta l.
+		wm=(1./(m0/2.))*exp(-(1./(m0/2.))*mil0); //Distribucion de Gibbs cuando no se tiene en cuenta l.
         
         LN= log(wm);
 		
@@ -45,7 +45,7 @@ double noahorro(double m0){
 }
 
 
-//Función ahorro.
+//Funcion ahorro.
 
 double ahorro(double l){
 	srand(time(NULL));
@@ -59,7 +59,7 @@ double ahorro(double l){
     nl=1.+((3.*l)/(1.-l));
     
     for(int i=nl; i>0; i--){
-         G+=(nl-1.);  //Función Gamma.
+         G+=(nl-1.);  //Funcion Gamma.
     }
       
     for (int i=0; i<N; i++){
@@ -79,7 +79,7 @@ double ahorro(double l){
 }
 
 
-//Función main.
+//Funcion main.
 
 int main(){
 	cout<<"**********Este es un programa de Econofisica**********"<<endl;
