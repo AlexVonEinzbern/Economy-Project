@@ -87,7 +87,7 @@ int main(){
 	cout<<"***************Departamento de Fisica*****************"<<endl;
 	cout<<"**********************@Autores************************/n"<<endl;
 	cout<<"@Luis Miguel Gomez"<<endl;
-	cout<<"@Mario Alexander Diaz"<<endl; // alex es una loca
+	cout<<"@Mario Alexander Diaz"<<endl;
 	cout<<"@Version 1.2/n"<<endl;
 	cout<<"De el numero de experimentos. "<<endl;
 	cin>>N;
