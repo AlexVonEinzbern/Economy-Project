@@ -13,7 +13,7 @@ double x, nl, Pn, an, G;
 
 using namespace std;
 
-//Funci�n noahorro.
+//Funcion noahorro.
 
 double noahorro(double m0){
 	mi=m0/2.; //Cantidad de dinero del agente i suponiendo que ambos agentes inician con la misma cantidad de dinero. 
